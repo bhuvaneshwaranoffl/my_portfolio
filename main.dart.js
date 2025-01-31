@@ -70008,7 +70008,7 @@ return A.iw(s,new A.E6(new A.V2(this),s),B.B,s,B.xn,s,s,s,B.AH,s,s,1/0)},
 FB(){var s="Developer | Innovator | Creator",r=B.h.ae(12e4*(new A.i_(s).gA(0)+8))
 return A.jQ(A.b([B.Oj,B.IZ,new A.rh(A.b([new A.xj(B.Ap,s,B.aM,B.Np,new A.aE(r),new A.i_(s))],t.u6),B.hx,!0,!0,100,null),B.j2,B.Ok,B.j2,B.Oi],t.F),B.bE,B.eZ)},
 FA(){var s=null,r=A.Qv(20)
-return new A.BY(r,new A.u8(A.au8(s,s,new A.rv("mine.png",s,s)),300,500,B.xp,s),s)}}
+return new A.BY(r,new A.u8(A.au8(s,s,new A.rv("assets/mine.png",s,s)),300,500,B.xp,s),s)}}
 A.V2.prototype={
 $2(a,b){var s=this.a,r=t.F
 if(b.b<600)return A.jQ(A.b([s.FA(),B.j2,s.FB()],r),B.ao,B.eZ)
