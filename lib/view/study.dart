@@ -7,8 +7,8 @@ class Study extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: 200,
-        decoration: BoxDecoration(),
+        width: double.infinity,
+        decoration: BoxDecoration(color: Colors.greenAccent),
         child: Column(
           children: [
             Text("Study"),

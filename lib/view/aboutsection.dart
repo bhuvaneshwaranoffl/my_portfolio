@@ -7,8 +7,10 @@ class Aboutsection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: 200,
-        decoration: BoxDecoration(),
+        width: double.infinity,
+        decoration: BoxDecoration(
+          color: Colors.white
+        ),
         child: Column(
           children: [
             Text("about"),

@@ -54,6 +54,7 @@ class _MainPageState extends State<MainPage> {
               leading: Builder(
                 builder: (context) {
                   return IconButton(
+                    color: Colors.white,
                     icon: const Icon(Icons.menu),
                     onPressed: () {
                       Scaffold.of(context).openDrawer();
@@ -170,15 +171,15 @@ class _MainPageState extends State<MainPage> {
         child: Column(
           children: [
             SizedBox(
-                key: _sectionKeys['Home'], height: 500, child: Homesection()),
+                key: _sectionKeys['Home'], height: 550, child: Homesection()),
             SizedBox(
-                key: _sectionKeys['About'], height: 500, child: Aboutsection()),
-            SizedBox(key: _sectionKeys['Skills'], height: 500, child: Skills()),
+                key: _sectionKeys['About'], height: 550, child: Aboutsection()),
+            SizedBox(key: _sectionKeys['Skills'], height: 550, child: Skills()),
             SizedBox(
-                key: _sectionKeys['Projects'], height: 500, child: Project()),
-            SizedBox(key: _sectionKeys['Study'], height: 500, child: Study()),
+                key: _sectionKeys['Projects'], height: 550, child: Project()),
+            SizedBox(key: _sectionKeys['Study'], height: 550, child: Study()),
             SizedBox(
-                key: _sectionKeys['Contact'], height: 500, child: Contact()),
+                key: _sectionKeys['Contact'], height: 550, child: Contact()),
           ],
         ),
       ),
