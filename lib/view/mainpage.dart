@@ -171,7 +171,7 @@ class _MainPageState extends State<MainPage> {
         child: Column(
           children: [
             SizedBox(
-                key: _sectionKeys['Home'], height: 550, child: Homesection()),
+                key: _sectionKeys['Home'], height: isMobile?1071:550, child: Homesection()),
             SizedBox(
                 key: _sectionKeys['About'], height: 550, child: Aboutsection()),
             SizedBox(key: _sectionKeys['Skills'], height: 550, child: Skills()),
